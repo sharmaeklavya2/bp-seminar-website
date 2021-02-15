@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="color-scheme" content="dark light" />
+<link rel="stylesheet" href="style.css" />
+<title>Bin Packing Seminar Series</title>
+<meta name="description" content="This seminar series provides a platform for researchers (including graduate students) working on bin packing and related problems to discuss new ideas and results." />
+<script defer src="script.js"></script>
+<!-- generated at 2021-05-22 07:10:00.959101+00:00 -->
+</head>
+
+
+
+<body>
+<h1>Bin Packing Seminar Series</h1>
+<p>This seminar series provides a platform for researchers (including graduate students) working on bin packing and related problems to discuss new ideas and results.</p>
+<p>
+The series is organized by <a href="https://www.inf.u-szeged.hu/~csirik/">János Csirik</a>
+(University of Szeged, Hungary).
+Please email him with questions, ideas, improvement possibilities (jcsirik@gmail.com).
+For website-related queries/updates please email
+<a href="https://www.csa.iisc.ac.in/~arindamkhan/">Arindam Khan</a> (arindamkhan@iisc.ac.in).
+</p>
+<p>The seminars will take place on Zoom at <a href="https://technion.zoom.us/j/98398068481">https://technion.zoom.us/j/98398068481</a>.</p>
+<h2>Upcoming Seminars</h2>
+<ol class="talk-list">
+
+<li id="online-bin-packing-of-squares-and-cubes">
+    <div class="title" tabindex="0">Online bin packing of squares and cubes<a class="headerlink" href="#online-bin-packing-of-squares-and-cubes" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        <a href="https://mathematics.haifa.ac.il/">
+            <span class="name">Loay Mualem</span>
+             | <span class="affil">University of Haifa, Israel</span>
+        </a>
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-05-26 15:00:00+02:00">
+            26 May 2021, 03:00 PM CEST</time>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+In the d-dimensional online bin packing problem, hyper-cubes of positive sizes no larger than 1 are presented one by one to be assigned to positions in d-dimensional unit cube bins. In this work, we provide improved upper bounds on the asymptotic competitive ratio for square and cube bin packing problems, where our bounds do not exceed 2.0885 and 2.5735 for square and cube packing, respectively. To achieve these results, we adapt and improve a previously designed harmonic-type algorithm, and apply a different method for defining weight functions. We detect deficiencies in the state-of-the-art results by providing counter-examples to the current best algorithms and the analysis, where the claimed bounds were 2.1187 for square packing and 2.6161 for cube packing. Based on joint work with Leah Epstein.
+        </span>
+    </div>
+</li>
+
+<li id="online-bin-packing-with-overload-cost">
+    <div class="title" tabindex="0">Online bin packing with overload cost<a class="headerlink" href="#online-bin-packing-with-overload-cost" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        <a href="https://www.tue.nl/en/research/researchers/kelin-luo/">
+            <span class="name">Kelin Luo</span>
+             | <span class="affil">TU Eindhoven, Netherlands</span>
+        </a>
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-06-02 15:00:00+02:00">
+            02 June 2021, 03:00 PM CEST</time>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+We study a variant of the online bin packing problem which allows the total size of items packed in a bin to exceed the capacity. We pay 1 to open a bin with capacity 1, and we additionally pay c for each unit with which the bin is overloaded, i.e, the overload cost is linear in the size of the overload. The corresponding goal is to minimize the total cost corresponding to the used bins. For each c, we present lower bounds on the competitive ratio achievable by deterministic algorithms. Further, we give an algorithm, called First-Fit Algorithm with Fixed Overload (FFO) that achieves the best possible competitive ratio for c <= 3/2. Furthermore, we sketch how both the algorithm as well as the lower bounds apply to more general convex cost functions.
+        </span>
+    </div>
+</li>
+
+<li id="almost-optimal-inapproximability-of-multidimensional-packing-problems">
+    <div class="title" tabindex="0">Almost Optimal Inapproximability of Multidimensional Packing Problems<a class="headerlink" href="#almost-optimal-inapproximability-of-multidimensional-packing-problems" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        <a href="https://spallerl.github.io/">
+            <span class="name">Sai Sandeep</span>
+             | <span class="affil">Carnegie Mellon University, USA</span>
+        </a>
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-06-09 15:00:00+02:00">
+            09 June 2021, 03:00 PM CEST</time>
+    </div>
+    <div class="paper">
+        <span class="icon"></span>
+        <a href="https://arxiv.org/abs/2101.02854">arXiv:2101.02854</a>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+Multidimensional packing problems generalize the classical packing problems such as Bin Packing, Multiprocessor Scheduling by allowing the jobs to be d-dimensional vectors. While the approximability of the scalar problems is well understood, there has been a significant gap between the approximation algorithms and the hardness results for the multidimensional variants. In this paper, we close this gap by giving almost tight hardness results for these problems. 1. We show that Vector Bin Packing has no polynomial time Ω(log d) factor asymptotic approximation algorithm when d is a large constant, assuming P ≠ NP. This matches the ln d + O(1) factor approximation algorithms (Chekuri, Khanna SICOMP 2004; Bansal, Caprara, Sviridenko SICOMP 2009; Bansal, Eliás, Khan SODA 2016) upto constants. 2. We show that Vector Scheduling has no polynomial time algorithm with an approximation ratio of Ω((log d)^(1-ε)) when d is part of the input, assuming NP ⊈ ZPTIME(n^((log n)^(O(1)))). This almost matches the O((log d)/(log log d)) factor algorithms (Harris, Srinivasan JACM 2019; Im, Kell, Kulkarni, Panigrahi SICOMP 2019). We also show that the problem is NP-hard to approximate within (log log d)^(ω(1)). 3. We show that Vector Bin Covering is NP-hard to approximate within Ω((log d)/(log log d)) when d is part of the input, almost matching the O(log d) factor algorithm (Alon et al., Algorithmica 1998). Previously, no hardness results that grow with d were known for Vector Scheduling and Vector Bin Covering when d is part of the input and for Vector Bin Packing when d is a fixed constant.
+        </span>
+    </div>
+</li>
+
+<li id="adaptive-bin-packing-with-overflow">
+    <div class="title" tabindex="0">Adaptive Bin Packing with Overflow<a class="headerlink" href="#adaptive-bin-packing-with-overflow" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        <a href="https://sites.google.com/view/sebastianps/home">
+            <span class="name">Sebastian Perez-Salazar</span>
+             | <span class="affil">Georgia Institute of Technology, USA</span>
+        </a>
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-06-16 15:00:00+02:00">
+            16 June 2021, 03:00 PM CEST</time>
+    </div>
+    <div class="paper">
+        <span class="icon"></span>
+        <a href="https://arxiv.org/abs/2007.11532">arXiv:2007.11532</a>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+Motivated by the allocation of virtual machines into servers in the cloud, we consider the online problem of packing items with random sizes into unit-capacity bins. Items arrive sequentially, but upon arrival an item’s actual size is unknown; only its probabilistic information is available to the decision maker. Without knowing this size, the decision maker must irrevocably pack the item into an available bin or place it in a new bin. Once packed in a bin, the decision maker observes the item’s actual size, and overflowing the bin is a possibility. An overflow incurs a large penalty cost and the corresponding bin is unusable for the rest of the process. In practical terms, this overflow models delayed services, failure of servers, and/or loss of end-user goodwill. The objective is to minimize the total expected cost given by the sum of the number of opened bins and the overflow penalty cost. In this talk, we present an online algorithm with expected cost at most a constant factor times the cost incurred by the optimal packing policy when item sizes are drawn from an i.i.d. sequence. We discuss the limits of our approach and extensions to the offline setting, where distributions are known in advance but packed sequentially. This is joint work with Mohit Singh and Alejandro Toriello.
+        </span>
+    </div>
+</li>
+</ol>
+<h2>Past Seminars</h2>
+<ol class="talk-list">
+
+<li id="approximation-schemes-for-the-generalized-extensible-bin-packing-problem">
+    <div class="title" tabindex="0">Approximation schemes for the generalized extensible bin packing problem<a class="headerlink" href="#approximation-schemes-for-the-generalized-extensible-bin-packing-problem" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        <a href="https://web.iem.technion.ac.il/site/academicstaff/asaf-levin/">
+            <span class="name">Asaf Levin</span>
+             | <span class="affil">Technion, Israel</span>
+        </a>
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-02-24 15:00:00+01:00">
+            24 February 2021, 03:00 PM CET</time>
+    </div>
+    <div class="live-video">
+        <span class="icon"></span>
+        <a href="https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/2021-02-24-asaf-levin.mp4">Video recording</a>
+    </div>
+    <div class="slides">
+        <span class="icon"></span>
+        <a href="https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/levin.pdf">Presentation slides</a>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+We present a new generalization of the extensible bin packing with unequal bin sizes problem. In this generalization the cost of exceeding the bin size depends on the index of the bin and not only on the amount in which the size of the bin is exceeded. This type of problem can be studied both as a scheduling problem (the number of bins is fixed) and as a bin packing problem (the number of bins is chosen by the algorithm). We will discuss the approximability of the (offline) generalized problem both in terms of the bin packing variant where an AFPTAS could be designed and of the scheduling variant where an EPTAS is exhibited. This last EPTAS is based on using the shifting technique followed by a solution of polynomial number of n-fold programming instances.
+        </span>
+    </div>
+</li>
+
+<li id="a-survey-talk-on-multidimensional-packing-2d-bin-packing-strip-packing-and-other-related-problems">
+    <div class="title" tabindex="0">A survey talk on multidimensional packing (2-D bin packing, strip packing, and other related problems)<a class="headerlink" href="#a-survey-talk-on-multidimensional-packing-2d-bin-packing-strip-packing-and-other-related-problems" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        <a href="https://www.csa.iisc.ac.in/~arindamkhan/">
+            <span class="name">Arindam Khan</span>
+             | <span class="affil">Indian Institute of Science, Bengaluru, India</span>
+        </a>
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-03-03 15:00:00+01:00">
+            03 March 2021, 03:00 PM CET</time>
+    </div>
+    <div class="live-video">
+        <span class="icon"></span>
+        <a href="https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/multdimbpSurvey_ArindamKhan.mp4">Video recording</a>
+    </div>
+    <div class="slides">
+        <span class="icon"></span>
+        <a href="https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/khansurveyppt.pdf">Presentation slides</a>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+Multidimensional generalizations of the bin packing problem find numerous applications in practice and are well-studied in approximation algorithms and combinatorial optimization from the 1970s. In this talk, we discuss some recent results and major open problems related to 2-D geometric bin packing, vector packing, strip packing, 2-D geometric knapsack, and weighted bipartite edge coloring.
+        </span>
+    </div>
+</li>
+
+<li id="packing-circles-in-squares">
+    <div class="title" tabindex="0">Packing circles in squares<a class="headerlink" href="#packing-circles-in-squares" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        <a href="https://www.ibr.cs.tu-bs.de/users/fekete/">
+            <span class="name">Sándor P. Fekete</span>
+             | <span class="affil">TU Braunschweig, Germany</span>
+        </a>
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-03-10 15:00:00+01:00">
+            10 March 2021, 03:00 PM CET</time>
+    </div>
+    <div class="live-video">
+        <span class="icon"></span>
+        <a href="https://youtu.be/PdvbuDaSBqc">Video recording</a>
+    </div>
+    <div class="slides">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/SandorFeketePresentation.pdf">Presentation slides</a>
+    </div>
+    <div class="more-resources">
+        <span class="leader">Additional resources:</span>
+        <ul class="follower">
+            <li><a href="https://www.ibr.cs.tu-bs.de/users/fekete/Videos/PackingCirclesInSquares.mp4">Video: Packing geometric objects with optimal worst-case density</a></li>
+            <li><a href="https://www.youtube.com/watch?v=Cwn9ZimX2XE">Video: Covering rectangles by disks</a></li>
+            <li><a href="http://www.inf.u-szeged.hu/bpseminar/SandorFeketediscussion.mp4">Video: Discussions after the talk</a></li>
+        </ul>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+We discuss problems and methods for packing a set of objects into a given container, in particular a set of different-size circles or squares into a square or circular container. Questions of this type have attracted a considerable amount of attention and are known to be notoriously hard. We focus on a particularly simple criterion for deciding whether a set can be packed: comparing the total area A of all objects to the area C of the container. The critical packing density δ* is the largest value A/C for which any set of area A can be packed into a container of area C. We describe algorithms that establish the critical density of squares in a square (δ* = 0.5), of circles in a square (δ* = 0.5390…), circles in a circle (δ* = 0.5), and squares in a circle (δ* = 0.509). We also provide a complete characterization of the critical covering density of rectangles by disks.
+        </span>
+    </div>
+</li>
+
+<li id="new-algorithmic-results-for-bin-packing-and-scheduling">
+    <div class="title" tabindex="0">New Algorithmic Results for Bin Packing and Scheduling<a class="headerlink" href="#new-algorithmic-results-for-bin-packing-and-scheduling" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        <a href="https://www.algo.informatik.uni-kiel.de/en/team/prof.-dr.-klaus-jansen">
+            <span class="name">Klaus Jansen</span>
+             | <span class="affil">Kiel University, Germany</span>
+        </a>
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-03-17 15:00:00+01:00">
+            17 March 2021, 03:00 PM CET</time>
+    </div>
+    <div class="live-video">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/KlausJansenvideo.mp4">Video recording</a>
+    </div>
+    <div class="slides">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/KlausJansenPresentation.pdf">Presentation slides</a>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+In this talk we present an overview about new results for bin packing and related scheduling problems. During the last years we have worked on the design of eﬃcient exact and approximation algorithms for packing and scheduling problems. In order to obtain faster algorithms we studied integer linear programming (ILP) formulations for these problems and proved structural results for optimum solutions of the corresponding ILPs.
+        </span>
+    </div>
+</li>
+
+<li id="greedy-methods-for-bin-packing-benchmark-problems">
+    <div class="title" tabindex="0">Greedy methods for Bin Packing Benchmark problems<a class="headerlink" href="#greedy-methods-for-bin-packing-benchmark-problems" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        <a href="https://math.uni-pannon.hu/~dosa/index_en.html">
+            <span class="name">György Dósa</span>
+             | <span class="affil">University of Pannonia, Hungary</span>
+        </a>
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-03-24 15:00:00+01:00">
+            24 March 2021, 03:00 PM CET</time>
+    </div>
+    <div class="live-video">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/DosaGyorgyvideo.mp4">Video recording</a>
+    </div>
+    <div class="slides">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/DosaGyorgyPresentation.pdf">Presentation slides</a>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+We consider the bin packing problem (BP) from the practical view. BP is know to be (strongly) NP-hard. Despite this fact, we find that certain input classes can be solved quite easily. More exactly we try to solve the Falkenauer U and the Schwerin benchmark instances. These commonly used benchmark classes have the property that the bin size is a given integer, the item sizes are drawn randomly by uniform distribution from some interval (and then rounded to integers). For the Schwerin class we are able to solve all 200 instances optimally in a greedy way. In case of the Falkenauer U class the problem is harder, here we can get optimal solution with some (other) greedy type algorithm, in about 90% of the instances. The conclusion is, that such algorithms can be considered as pre-solve methods, they solve most of the cases, and only the remained instances should be solved by some more sophisticated algorithm.
+        </span>
+    </div>
+</li>
+
+<li id="some-questions-related-to-the-gametheoretic-version">
+    <div class="title" tabindex="0">Some questions related to the game-theoretic version<a class="headerlink" href="#some-questions-related-to-the-gametheoretic-version" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        <a href="https://sites.google.com/site/vittoriobilo/">
+            <span class="name">Vittorio Bilo</span>
+             | <span class="affil">University of Salento, Italy</span>
+        </a>
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-03-31 15:00:00+02:00">
+            31 March 2021, 03:00 PM CEST</time>
+    </div>
+    <div class="live-video">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/VittorioBilovideo.mp4">Video recording</a>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+Selfish bin packing (aka. bin packing games) is the variant of the bin packing problem considered under the hypothesis that items are handled by selfish non-cooperative agents. It has been an active research topic in Algorithmic Game Theory since its introduction in 2006. In this talk, we survey the main results for selfish packing achieved in these fifteen years and then present our recent contributions to the topic.
+        </span>
+    </div>
+</li>
+
+<li id="about-the-structure-of-the-integer-cone-and-its-application-to-bin-packing">
+    <div class="title" tabindex="0">About the structure of the integer cone and its application to bin packing<a class="headerlink" href="#about-the-structure-of-the-integer-cone-and-its-application-to-bin-packing" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        <a href="algo.informatik.uni-kiel.de/en/team/kim-manuel-klein">
+            <span class="name">Kim Manuel Klein</span>
+             | <span class="affil">Kiel University, Germany</span>
+        </a>
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-04-07 15:00:00+02:00">
+            07 April 2021, 03:00 PM CEST</time>
+    </div>
+    <div class="live-video">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/KimKleinvideo.mp4">Video recording</a>
+    </div>
+    <div class="slides">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/KimKleinPresentation.pdf">Presentation slides</a>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+We consider the classical bin packing problem with d different item sizes. An instance of this problem, can be encoded very efficiently as the item sizes and the multiplicities can be written in binary. It was a long standing open question if the problem admits an algorithm that runs in polynomial time in the encoding length (assuming d is constant). Goemans and Rothvoss finally answered this question positively. They presented an algorithm that relies on structural properties of solutions of the corresponding configuration integer program. It remains an open question however, if the problem actually admits an fpt algorithm, parameterized by d. In this talk, we present new structural techniques that build upon the ideas of Goemans and Rothvoss. As a result of those ideas we obtain an fpt algorithm for the problem parameterized by the number of vertices of the underlying knapsack polytope.
+        </span>
+    </div>
+</li>
+
+<li id="online-bin-packing-with-predictions">
+    <div class="title" tabindex="0">Online bin packing with predictions<a class="headerlink" href="#online-bin-packing-with-predictions" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        <a href="http://www.cs.umanitoba.ca/~kamalis/">
+            <span class="name">Shahin Kamali</span>
+             | <span class="affil">University of Manitoba, Canada</span>
+        </a>
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-04-14 15:00:00+02:00">
+            14 April 2021, 03:00 PM CEST</time>
+    </div>
+    <div class="live-video">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/ShahinKamalivideo.mp4">Video recording</a>
+    </div>
+    <div class="slides">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/ShahinKamaliPresentation.pdf">Presentation slides</a>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+In this talk, we discuss a recent trend in the design of online algorithms in which the online algorithm is enhanced with (potentially erroneous) predictions about the input sequence. The goal is to design algorithms with good “consistency” (i.e., the competitive ratio assuming no prediction error) and “robustness” (i.e., the competitive ratio under adversarial error). The first part of the talk is an overview of recent results for some classic online problems such as paging and contract scheduling. In the second part, we consider the bin packing problem with predictions that concern the frequency of item sizes in the input sequence. We discuss online algorithms with efficient tradeoffs between their consistency and their robustness, and whose performance degrades gently as a function of the error in prediction.
+        </span>
+    </div>
+</li>
+
+<li id="discovering-and-certifying-lower-bounds-for-the-online-bin-stretching-problem">
+    <div class="title" tabindex="0">Discovering and Certifying Lower Bounds for the Online Bin Stretching Problem<a class="headerlink" href="#discovering-and-certifying-lower-bounds-for-the-online-bin-stretching-problem" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        
+            <span class="name">Martin Böhm</span>
+             | <span class="affil">Institute of Computer Science, University of Wrocław, Poland</span>
+        
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-04-21 15:00:00+02:00">
+            21 April 2021, 03:00 PM CEST</time>
+    </div>
+    <div class="live-video">
+        <span class="icon"></span>
+        <a href="https://www.inf.u-szeged.hu/bpseminar/MartinBohmvideo.mp4">Video recording</a>
+    </div>
+    <div class="paper">
+        <span class="icon"></span>
+        <a href="https://arxiv.org/abs/2001.01125">Paper: Discovering and Certifying Lower Bounds for the Online Bin Stretching Problem</a>
+    </div>
+    <div class="slides">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/MartinBohmPresentation.pdf">Presentation slides</a>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+Online bin stretching is a scheduling problem at the threshold of scheduling and bin packing, as its terminology suggests. Studied for over 20 years, its exact competitive ratio is still unknown, and progress is lacking primarily in constructing strong lower bounds. In the last few years, there was success in creating non-trivial lower bounds for a fixed number of bins with the aid of a computer search. However, the bounds are in the form of large adversarial decision trees and some cannot be verified by human reviewers anymore. In the talk, we will discuss the tools, both theoretical and technical, to generate the lower bounds, as well as explain how to validate them using the Coq proof assistant system.  Parts of the talk are based on joint work with Bertrand Simon.
+        </span>
+    </div>
+</li>
+
+<li id="on-a-batched-bin-packing-problem">
+    <div class="title" tabindex="0">On a batched bin packing problem<a class="headerlink" href="#on-a-batched-bin-packing-problem" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        <a href="http://www.jgypk.hu/~bekesi/">
+            <span class="name">József Békési</span>
+             | <span class="affil">University of Szeged, Hungary</span>
+        </a>
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-04-28 15:00:00+02:00">
+            28 April 2021, 03:00 PM CEST</time>
+    </div>
+    <div class="live-video">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/BekesiJozsefvideo.mp4">Video recording</a>
+    </div>
+    <div class="slides">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/BekesiJozsefPresentation.pdf">Presentation slides</a>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+In the paper we will consider a special relaxation of the well-known online bin packing problem. In a batched bin packing problem (BBPP) - defined by Gutin et al. - the elements come in batches and one batch is available for packing in a given time. If we have K >= 2 batches then we denote the problem by K-BBPP. Gutin et al. gave a 1.3871... lower bound for the asymptotic competitive ratio (ACR) of any on-line 2-BBBP algorithm. In this talk we discuss the 3-BBPP, and we present a 1.51211... lower bound construction for its ACR. This is joint work with János Balogh, György Dósa, Gábor Galambos, and Zhiyi Tan.
+        </span>
+    </div>
+</li>
+
+<li id="a-tight-32ε-approximation-for-skewed-strip-packing">
+    <div class="title" tabindex="0">A Tight (3/2+ε) Approximation for Skewed Strip Packing<a class="headerlink" href="#a-tight-32ε-approximation-for-skewed-strip-packing" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        <a href="https://sites.google.com/view/wgalvez/">
+            <span class="name">Waldo Galvez</span>
+             | <span class="affil">Technical University of Munich, Germany</span>
+        </a>
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-05-05 15:00:00+02:00">
+            05 May 2021, 03:00 PM CEST</time>
+    </div>
+    <div class="live-video">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/WaldoGalvezvideo.mp4">Video recording</a>
+    </div>
+    <div class="slides">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/WaldoGalvezPresentation.pdf">Presentation slides</a>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+In the Strip Packing problem, we are given a vertical half-strip and a collection of rectangles. Our goal is to find an axis-aligned (non-overlapping) packing of such rectangles into the strip such that the maximum height OPT spanned by the packing is as small as possible.  It is NP-hard to approximate this problem within a factor (3/2 − ε) for anyconstant ε > 0 by a simple reduction from the Partition problem. The current best approximationfactor for Strip Packing is (5/3+ε) by Harren et al. [Computational Geometry ’14]. It seems plausible that Strip Packing admits a (3/2 + ε) approximation. We make progress in that direction by achieving such tight approximation guarantees for a special family of instances, which we call skewed instances. As standard in the area, for a given constant parameter δ > 0, we call large the rectangles with width at least δW and height at least δOPT, and skewed the remaining rectangles.  We consider the case where all the rectangles are skewed. This case retains a large part of the complexity of the original problem; in particular, it is NP-hard to approximatewithin a factor (3/2 − ε) and we provide an (almost) tight (3/2 + ε)-approximation algorithm.
+        </span>
+    </div>
+</li>
+
+<li id="on-the-price-of-clustering">
+    <div class="title" tabindex="0">On the price of clustering<a class="headerlink" href="#on-the-price-of-clustering" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        <a href="http://math.haifa.ac.il/lea/">
+            <span class="name">Leah Epstein</span>
+             | <span class="affil">University of Haifa, Israel</span>
+        </a>
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-05-12 15:00:00+02:00">
+            12 May 2021, 03:00 PM CEST</time>
+    </div>
+    <div class="live-video">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/LeahEpsteinvideo.mp4">Video recording</a>
+    </div>
+    <div class="slides">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/LeahEpsteinPresentation.pdf">Presentation slides</a>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+We discuss a recently introduced concept, called the price of clustering, for one-dimensional variants of the bin packing problem. Input items have sizes, and they also belong to a certain number of types. The new concept deals with the comparison of optimal solutions for the cases where items of distinct types can and cannot be packed together, respectively. The problem is related to greedy bin packing algorithms and batched bin packing, and we discuss some of those concepts as well for the different variants.
+        </span>
+    </div>
+</li>
+
+<li id="harmonic-algorithms-for-packing-ddimensional-cuboids-into-bins">
+    <div class="title" tabindex="0">Harmonic Algorithms for Packing d-dimensional Cuboids Into Bins<a class="headerlink" href="#harmonic-algorithms-for-packing-ddimensional-cuboids-into-bins" title="permalink"></a></div>
+    <div class="speaker">
+        <span class="icon"></span>
+        <a href="https://sharmaeklavya2.github.io">
+            <span class="name">Eklavya Sharma</span>
+             | <span class="affil">Indian Institute of Science, Bengaluru, India</span>
+        </a>
+    </div>
+    <div class="time">
+        <span class="icon"></span>
+        <time datetime="2021-05-19 15:00:00+02:00">
+            19 May 2021, 03:00 PM CEST</time>
+    </div>
+    <div class="live-video">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/EklavyaSharmavideo.mp4">Video recording</a>
+    </div>
+    <div class="paper">
+        <span class="icon"></span>
+        <a href="https://arxiv.org/abs/2011.10963">arXiv:2011.10963</a>
+    </div>
+    <div class="slides">
+        <span class="icon"></span>
+        <a href="http://www.inf.u-szeged.hu/bpseminar/EklavyaSharmaPresentation.pdf">Presentation slides</a>
+    </div>
+    <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
+We explore approximation algorithms for the d-dimensional geometric bin packing problem (dBP). Caprara (MOR 2008) gave a harmonic-based algorithm for dBP having an asymptotic approximation ratio (AAR) of 1.692^(d-1). However, their algorithm doesn't allow items to be rotated. This is in contrast to some common applications of dBP, like packing boxes into shipping containers. We give approximation algorithms for dBP when items can be orthogonally rotated about all or a subset of axes. We first give a fast and simple harmonic-based algorithm having AAR 1.692^d. We next give a more sophisticated harmonic-based algorithm, which we call HGaP, having AAR (1+ε)*1.692^(d-1). This gives an AAR of roughly 2.860+ε for 3BP with rotations, which improves upon the best-known AAR of 4.5. In addition, we study the multiple-choice bin packing problem that generalizes the rotational case. Here we are given n sets of d-dimensional cuboidal items and we have to choose exactly one item from each set and then pack the chosen items. Our algorithms also work for the multiple-choice bin packing problem. We also give fast and simple approximation algorithms for the multiple-choice versions of dD strip packing and dD geometric knapsack.
+        </span>
+    </div>
+</li>
+</ol>
+<p class="credits">Website designed by
+<a href="https://sharmaeklavya2.github.io">Eklavya Sharma</a>.
+Source code available on
+<a href="https://github.com/sharmaeklavya2/bp-seminar-website">github</a>.</p>
+</body>
+</html>
