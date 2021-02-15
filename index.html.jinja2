@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="color-scheme" content="dark light" />
+<link rel="stylesheet" href="style.css" />
+<title>{{title}}</title>
+<meta name="description" content="{{description}}" />
+</head>
+
+<body>
+<h1>{{title}}</h1>
+<p>{{description}}</p>
+<ol class="talk-list">
+{%- for talk in talks %}
+<li>
+{%- if talk.title %}
+    <div class="title">{{talk.title}}</div>
+{%- endif %}
+{%- if talk.speakerName %}
+    <div class="speaker">
+        <span class="icon"></span>
+        {% if talk.speakerUrl %}<a href="{{talk.speakerUrl}}">{% endif %}
+            <span class="name">{{talk.speakerName}}</span>
+            {% if talk.speakerAffil %}<span class="affil">{{talk.speakerAffil}}</span>{% endif %}
+        {% if talk.speakerUrl %}</a>{% endif %}
+    </div>
+{%- endif %}
+{%- if talk.time or talk.timeHuman %}
+    <div class="time">
+        <span class="icon"></span>
+        {%- if talk.time %}
+        <time datetime="{{talk.time}}">
+            {{talk.timeHuman or talk.time}}</time>
+        {%- else %}
+        <span>{{talk.timeHuman}}</span>
+        {%- endif %}
+    </div>
+{%- endif %}
+{%- if talk.videoUrl or talk.videoText %}
+    <div class="live-video">
+        <span class="icon"></span>
+        {%- if talk.videoUrl %}
+        <a href="{{talk.videoUrl}}">{{talk.videoText or talk.videoUrl}}</a>
+        {%- else %}
+        <span>{{talk.videoText}}</span>
+        {%- endif %}
+    </div>
+{%- endif %}
+{%- if talk.paperUrl %}
+    <div class="paper">
+        <span class="icon"></span>
+        <a href="{{talk.paperUrl}}">{{talk.paperText or talk.paperUrl}}</a>
+    </div>
+{%- endif %}
+{%- if talk.abstract %}
+    <div class="abstract">
+{{talk.abstract}}
+    </div>
+{%- endif %}
+</li>
+{%- endfor %}
+</ol>
+</body>
+</html>

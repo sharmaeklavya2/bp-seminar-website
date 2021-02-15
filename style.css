@@ -1,0 +1,97 @@
+/* color scheme */
+body {
+    background-color: rgb(250, 250, 250);
+    --text-color: hsl(0, 0%, 20%);
+    --emph-color: hsl(0, 0%, 10%);
+    --link-color: rgb(3, 102, 214);
+    --bold-weight: 500;
+}
+.icon {
+    filter: invert(0.2);
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: hsl(0, 0%, 12%);
+        --text-color: hsl(0, 0%, 85%);
+        --emph-color: hsl(0, 0%, 95%);
+        --link-color: rgb(65, 175, 235);
+    }
+    .icon {
+        filter: invert(0.85);
+    }
+}
+
+/* general */
+body {
+    color: var(--text-color);
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0 3rem;
+}
+@media (max-width: 640px) {
+    body {padding: 0 1rem;}
+}
+a {
+    color: var(--link-color);
+}
+a:not(:hover) {
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    line-height: initial;
+    color: var(--emph-color);
+}
+
+/* specific */
+.talk-list > li {
+    margin: 1.5rem 0;
+}
+@media (max-width: 640px) {
+    .talk-list {
+        list-style-type: none;
+        padding: 0;
+    }
+}
+.talk-list .title {
+    font-size: 1.1em;
+    font-weight: var(--bold-weight);
+    color: var(--emph-color);
+}
+.talk-list .affil::before {
+    content: " | ";
+}
+.talk-list .abstract {
+    padding-top: 0.3rem;
+    font-size: 1.1rem;
+}
+.talk-list .abstract::before {
+    content: "Abstract: ";
+    font-weight: var(--bold-weight);
+}
+
+/* icons */
+.icon, .noicon {
+    display: inline-block;
+    height: 1.1em;
+    width: 1.1em;
+    position: relative;
+    top: 0.15em;
+    margin-right: 0.2em;
+}
+.icon {
+    background: url("sprites.svg") no-repeat;
+    background-size: 4.4em 1.1em;
+}
+.time .icon {
+    background-position: -1.1em 0em;
+}
+.live-video .icon {
+    background-position: -2.2em 0em;
+}
+.paper .icon {
+    background-position: -3.3em 0em;
+}
