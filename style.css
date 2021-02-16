@@ -95,6 +95,9 @@ time {
     content: "Abstract: ";
     font-weight: var(--bold-weight);
 }
+.credits {
+    font-style: italic;
+}
 
 /* icons */
 .icon, .noicon {
