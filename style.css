@@ -68,7 +68,10 @@ time {
 
 /* specific */
 .talk-list > li {
-    margin: 1.5rem 0;
+    margin: 2rem 0;
+}
+.talk-list > li > * {
+    margin: 0.4rem 0;
 }
 @media (max-width: 640px) {
     .talk-list {
