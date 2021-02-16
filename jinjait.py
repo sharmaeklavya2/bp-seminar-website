@@ -10,7 +10,8 @@ import jinja2
 
 
 def timePlugin(context):
-    context['nowObj'] = datetime.now(pytz.utc)
+    nowObj = datetime.now(pytz.utc)
+    context['nowObj'] = nowObj
     defaultTz = None
     defaultTzName = context.get('defaultTz')
     if defaultTzName is not None:
@@ -23,16 +24,28 @@ def timePlugin(context):
         return dt
 
     def modify(j):
+        pastSum, futureSum = 0, 0
         if isinstance(j, list):
             for x in j:
-                modify(x)
+                pastEv, futureEv = modify(x)
+                pastSum += pastEv
+                futureSum += futureEv
         elif isinstance(j, Mapping):
             for k, v in j.items():
-                modify(v)
+                pastEv, futureEv = modify(v)
+                pastSum += pastEv
+                futureSum += futureEv
             if 'time' in j:
                 j['timeObj'] = getTimeObj(j['time'])
+                if j['timeObj'] >= nowObj:
+                    futureSum += 1
+                else:
+                    pastSum += 1
+        return (pastSum, futureSum)
 
-    modify(context)
+    pastEvents, futureEvents = modify(context)
+    context['pastEvents'] = pastEvents
+    context['futureEvents'] = futureEvents
     return context
 
 

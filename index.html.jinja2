@@ -11,11 +11,7 @@
 <!-- generated at {{nowObj}} -->
 </head>
 
-<body>
-<h1>{{title}}</h1>
-<p>{{description}}</p>
-<ol class="talk-list">
-{%- for talk in talks %}
+{% macro printTalk(talk) %}
 <li>
 {%- if talk.title %}
     <div class="title">{{talk.title}}</div>
@@ -62,7 +58,30 @@
     </div>
 {%- endif %}
 </li>
+{%- endmacro %}
+
+<body>
+<h1>{{title}}</h1>
+<p>{{description}}</p>
+{%- if futureEvents %}
+<h2>Upcoming Seminars</h2>
+<ol class="talk-list">
+{%- for talk in talks %}
+{%- if talk.timeObj >= nowObj %}
+{{ printTalk(talk) }}
+{%- endif %}
 {%- endfor %}
 </ol>
+{%- endif %}
+{%- if pastEvents %}
+<h2>Past Seminars</h2>
+<ol class="talk-list">
+{%- for talk in talks %}
+{%- if talk.timeObj < nowObj %}
+{{ printTalk(talk) }}
+{%- endif %}
+{%- endfor %}
+</ol>
+{%- endif %}
 </body>
 </html>
