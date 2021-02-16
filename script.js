@@ -22,6 +22,7 @@ function createDateTooltip() {
         if(dateStr) {
             let date = getDate(dateStr);
             if(date) {
+                timeElem.setAttribute('tabindex', '0');
                 let tooltipElem = document.createElement('span');
                 tooltipElem.classList.add('tooltip');
                 tooltipElem.innerHTML = date.toString();

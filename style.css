@@ -47,7 +47,7 @@ h1 {
     line-height: initial;
     color: var(--emph-color);
 }
-time {
+.time {
     position: relative;
 }
 .tooltip {

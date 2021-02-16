@@ -29,7 +29,7 @@
     <div class="time">
         <span class="icon"></span>
         {%- if talk.time %}
-        <time tabindex="0" datetime="{{talk.timeObj.isoformat(' ')}}">
+        <time datetime="{{talk.timeObj.isoformat(' ')}}">
             {{talk.timeHuman or talk.timeObj.strftime('%d %B %Y, %I:%M %p %Z')}}</time>
         {%- else %}
         <span>{{talk.timeHuman}}</span>
