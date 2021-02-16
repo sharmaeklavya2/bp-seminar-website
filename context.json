@@ -1,14 +1,14 @@
 {
 "title": "Bin Packing Seminar Series",
 "description": "This seminar series provides a platform for researchers (including graduate students) working on bin packing and related problems to discuss new ideas and results.",
+"defaultTz": "Europe/Paris",
 "talks": [
 {
     "title": "Approximation schemes for the generalized extensible bin packing problem",
     "speakerName": "Asaf Levin",
     "speakerAffil": "Technion",
     "speakerUrl": "https://web.iem.technion.ac.il/site/academicstaff/asaf-levin/",
-    "timeHuman": "24 February 2021, 3 pm CET",
-    "time": "2021-02-24 15:00:00+01:00",
+    "time": "2021-02-24 15:00:00",
     "videoText": "Zoom link: to be updated",
     "abstract": "I present a new generalization of the extensible bin packing with unequal bin sizes problem. In this generalization the cost of exceeding the bin size depends on the index of the bin and not only on the amount in which the size of the bin is exceeded. This type of problem can be studied both as a scheduling problem (the number of bins is fixed) and as a bin packing problem (the number of bins is chosen by the algorithm). I will discuss the approximability of the (offline) generalized problem both in terms of the bin packing variant where an AFPTAS could be designed and of the scheduling variant where an EPTAS is exhibited. This last EPTAS is based on using the shifting technique followed by a solution of polynomial number of n-fold programming instances."
 },
@@ -17,8 +17,7 @@
     "speakerName": "Arindam Khan",
     "speakerAffil": "CSA, IISc",
     "speakerUrl": "https://www.csa.iisc.ac.in/~arindamkhan/",
-    "timeHuman": "03 March 2021, 3 pm CET",
-    "time": "2021-03-03 15:00:00+01:00",
+    "time": "2021-03-03 15:00:00",
     "videoText": "Zoom link: to be updated"
 },
 {
@@ -26,8 +25,7 @@
     "speakerName": "Sándor P. Fekete",
     "speakerAffil": "TU Braunschweig",
     "speakerUrl": "https://www.ibr.cs.tu-bs.de/users/fekete/",
-    "timeHuman": "10 March 2021, 3 pm CET",
-    "time": "2021-03-10 15:00:00+01:00",
+    "time": "2021-03-10 15:00:00",
     "videoText": "Zoom link: to be updated"
 },
 {
@@ -35,78 +33,68 @@
     "speakerName": "Klaus Jansen",
     "speakerAffil": "Kiel University",
     "speakerUrl": "https://www.algo.informatik.uni-kiel.de/en/team/prof.-dr.-klaus-jansen",
-    "time": "2021-03-17 15:00:00+01:00",
-    "timeHuman": "17 March 2021, 3 pm CET"
+    "time": "2021-03-17 15:00:00"
 },
 {
     "title": "Greedy methods for Bin Packing Benchmark problems",
     "speakerName": "György Dósa",
-    "time": "2021-03-24 15:00:00+01:00",
-    "timeHuman": "24 March 2021, 3 pm CET"
+    "time": "2021-03-24 15:00:00"
 },
 {
     "title": "Some questions related to the game-theoretic version",
     "speakerName": "Vittorio Bilo",
     "speakerAffil": "University of Salento, Italy",
     "speakerUrl": "https://sites.google.com/site/vittoriobilo/",
-    "time": "2021-03-31 15:00:00+01:00",
-    "timeHuman": "31 March 2021, 3 pm CET"
+    "time": "2021-03-31 15:00:00"
 },
 {
     "title": "About the structure of the integer cone and its application to bin packing",
     "speakerName": "Kim Manuel Klein",
     "speakerAffil": "Kiel University",
     "speakerUrl": "algo.informatik.uni-kiel.de/en/team/kim-manuel-klein",
-    "time": "2021-04-07 15:00:00+01:00",
-    "timeHuman": "7 April 2021, 3 pm CET"
+    "time": "2021-04-07 15:00:00"
 },
 {
     "title": "Online bin packing with predictions",
     "speakerName": "Shahin Kamali",
     "speakerAffil": "University of Manitoba",
     "speakerUrl": "http://www.cs.umanitoba.ca/~kamalis/",
-    "time": "2021-04-14 15:00:00+01:00",
-    "timeHuman": "14 April 2021, 3 pm CET"
+    "time": "2021-04-14 15:00:00"
 },
 {
     "title": "Discovering and Certifying Lower Bounds for the Online Bin Stretching Problem",
     "speakerName": "Martin Böhm",
     "speakerAffil": "Universität Bremen, Germany",
     "speakerUrl": "https://www.uni-bremen.de/en/cslog/team/dr-martin-boehm",
-    "time": "2021-04-21 15:00:00+01:00",
-    "timeHuman": "21 April 2021, 3 pm CET"
+    "time": "2021-04-21 15:00:00"
 },
 {
     "title": "On a batched bin packing problem",
     "speakerName": "József Békési",
     "speakerAffil": "University of Szeged",
     "speakerUrl": "http://www.jgypk.hu/~bekesi/",
-    "time": "2021-04-28 15:00:00+01:00",
-    "timeHuman": "28 April 2021, 3 pm CET"
+    "time": "2021-04-28 15:00:00"
 },
 {
     "title": "A Tight (3/2+ε) Approximation for Skewed Strip Packing",
     "speakerName": "Waldo Galvez",
     "speakerAffil": "Technical University of Munich",
     "speakerUrl": "https://people.idsia.ch/~galvez/",
-    "time": "2021-05-05 15:00:00+01:00",
-    "timeHuman": "5 May 2021, 3 pm CET"
+    "time": "2021-05-05 15:00:00"
 },
 {
     "title": "To be announced",
     "speakerName": "Leah Epstein",
     "speakerAffil": "University of Haifa",
     "speakerUrl": "http://math.haifa.ac.il/lea/",
-    "time": "2021-05-12 15:00:00+01:00",
-    "timeHuman": "12 May 2021, 3 pm CET"
+    "time": "2021-05-12 15:00:00"
 },
 {
     "title": "Harmonic Algorithms for Packing d-dimensional Cuboids Into Bins",
     "speakerName": "Eklavya Sharma",
     "speakerAffil": "CSA, IISc",
     "speakerUrl": "https://sharmaeklavya2.github.io",
-    "time": "2021-05-19 15:00:00+01:00",
-    "timeHuman": "19 May 2021, 3 pm CET",
+    "time": "2021-05-19 15:00:00",
     "paperUrl": "https://arxiv.org/abs/2011.10963",
     "paperText": "arXiv:2011.10963"
 }
