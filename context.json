@@ -38,6 +38,8 @@
 {
     "title": "Greedy methods for Bin Packing Benchmark problems",
     "speakerName": "György Dósa",
+    "speakerAffil": "University of Pannonia, Hungary",
+    "speakerUrl": "https://math.uni-pannon.hu/~dosa/index_en.html",
     "time": "2021-03-24 15:00:00"
 },
 {
@@ -97,6 +99,13 @@
     "time": "2021-05-19 15:00:00",
     "paperUrl": "https://arxiv.org/abs/2011.10963",
     "paperText": "arXiv:2011.10963"
+},
+{
+    "title": "To be announced",
+    "speakerName": "Loay Mualem",
+    "speakerAffil": "University of Haifa, Israel",
+    "speakerUrl": "https://mathematics.haifa.ac.il/",
+    "time": "2021-05-26 15:00:00"
 }
 ]
 }
