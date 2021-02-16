@@ -6,7 +6,7 @@
 {
     "title": "Approximation schemes for the generalized extensible bin packing problem",
     "speakerName": "Asaf Levin",
-    "speakerAffil": "Technion",
+    "speakerAffil": "Technion, Israel",
     "speakerUrl": "https://web.iem.technion.ac.il/site/academicstaff/asaf-levin/",
     "time": "2021-02-24 15:00:00",
     "videoText": "Zoom link: to be updated",
@@ -15,7 +15,7 @@
 {
     "title": "A survey talk on multidimensional packing (2-D bin packing, strip packing, and other related problems)",
     "speakerName": "Arindam Khan",
-    "speakerAffil": "CSA, IISc",
+    "speakerAffil": "Indian Institute of Science, Bengaluru, India",
     "speakerUrl": "https://www.csa.iisc.ac.in/~arindamkhan/",
     "time": "2021-03-03 15:00:00",
     "videoText": "Zoom link: to be updated"
@@ -23,7 +23,7 @@
 {
     "title": "Packing circles in squares",
     "speakerName": "Sándor P. Fekete",
-    "speakerAffil": "TU Braunschweig",
+    "speakerAffil": "TU Braunschweig, Germany",
     "speakerUrl": "https://www.ibr.cs.tu-bs.de/users/fekete/",
     "time": "2021-03-10 15:00:00",
     "videoText": "Zoom link: to be updated"
@@ -31,7 +31,7 @@
 {
     "title": "New Algorithmic Results for Bin Packing and Scheduling",
     "speakerName": "Klaus Jansen",
-    "speakerAffil": "Kiel University",
+    "speakerAffil": "Kiel University, Germany",
     "speakerUrl": "https://www.algo.informatik.uni-kiel.de/en/team/prof.-dr.-klaus-jansen",
     "time": "2021-03-17 15:00:00"
 },
@@ -52,14 +52,14 @@
 {
     "title": "About the structure of the integer cone and its application to bin packing",
     "speakerName": "Kim Manuel Klein",
-    "speakerAffil": "Kiel University",
+    "speakerAffil": "Kiel University, Germany",
     "speakerUrl": "algo.informatik.uni-kiel.de/en/team/kim-manuel-klein",
     "time": "2021-04-07 15:00:00"
 },
 {
     "title": "Online bin packing with predictions",
     "speakerName": "Shahin Kamali",
-    "speakerAffil": "University of Manitoba",
+    "speakerAffil": "University of Manitoba, Canada",
     "speakerUrl": "http://www.cs.umanitoba.ca/~kamalis/",
     "time": "2021-04-14 15:00:00"
 },
@@ -73,28 +73,28 @@
 {
     "title": "On a batched bin packing problem",
     "speakerName": "József Békési",
-    "speakerAffil": "University of Szeged",
+    "speakerAffil": "University of Szeged, Hungary",
     "speakerUrl": "http://www.jgypk.hu/~bekesi/",
     "time": "2021-04-28 15:00:00"
 },
 {
     "title": "A Tight (3/2+ε) Approximation for Skewed Strip Packing",
     "speakerName": "Waldo Galvez",
-    "speakerAffil": "Technical University of Munich",
+    "speakerAffil": "Technical University of Munich, Germany",
     "speakerUrl": "https://people.idsia.ch/~galvez/",
     "time": "2021-05-05 15:00:00"
 },
 {
     "title": "To be announced",
     "speakerName": "Leah Epstein",
-    "speakerAffil": "University of Haifa",
+    "speakerAffil": "University of Haifa, Israel",
     "speakerUrl": "http://math.haifa.ac.il/lea/",
     "time": "2021-05-12 15:00:00"
 },
 {
     "title": "Harmonic Algorithms for Packing d-dimensional Cuboids Into Bins",
     "speakerName": "Eklavya Sharma",
-    "speakerAffil": "CSA, IISc",
+    "speakerAffil": "Indian Institute of Science, Bengaluru, India",
     "speakerUrl": "https://sharmaeklavya2.github.io",
     "time": "2021-05-19 15:00:00",
     "paperUrl": "https://arxiv.org/abs/2011.10963",
