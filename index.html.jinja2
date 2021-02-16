@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="style.css" />
 <title>{{title}}</title>
 <meta name="description" content="{{description}}" />
+<script defer src="script.js"></script>
 <!-- generated at {{nowObj}} -->
 </head>
 
@@ -32,7 +33,7 @@
     <div class="time">
         <span class="icon"></span>
         {%- if talk.time %}
-        <time datetime="{{talk.timeObj.isoformat(' ')}}">
+        <time tabindex="0" datetime="{{talk.timeObj.isoformat(' ')}}">
             {{talk.timeHuman or talk.timeObj.strftime('%d %B %Y, %I:%M %p %Z')}}</time>
         {%- else %}
         <span>{{talk.timeHuman}}</span>

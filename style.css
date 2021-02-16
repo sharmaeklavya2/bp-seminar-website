@@ -5,6 +5,7 @@ body {
     --emph-color: hsl(0, 0%, 10%);
     --link-color: rgb(3, 102, 214);
     --bold-weight: 500;
+    --menu-color: hsl(0, 0%, 80%, 0.95);
 }
 .icon {
     filter: invert(0.2);
@@ -15,6 +16,7 @@ body {
         --text-color: hsl(0, 0%, 85%);
         --emph-color: hsl(0, 0%, 95%);
         --link-color: rgb(65, 175, 235);
+        --menu-color: hsl(0, 0%, 30%, 0.95);
     }
     .icon {
         filter: invert(0.85);
@@ -44,6 +46,24 @@ h1 {
     font-size: 3rem;
     line-height: initial;
     color: var(--emph-color);
+}
+time {
+    position: relative;
+}
+.tooltip {
+    position: absolute;
+    left: 0;
+    top: 1.5em;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    background-color: var(--menu-color);
+    z-index: 10;
+}
+.tooltip {
+    display: none;
+}
+:hover > .tooltip, :focus > .tooltip {
+    display: block;
 }
 
 /* specific */
