@@ -17,8 +17,9 @@ Then, run the generator:
     python3 jinjait.py index.html.jinja2 context.json index.html
 
 The output is written to the file `index.html`.
-This repository also contains other assets required by the website, like CSS and images.
-Simply serve all files in this directory using an HTTP server.
+This repository also contains other assets required by the website:
+`script.js`, `style.css`, `sprites.svg`.
+To deploy, serve `index.html` and these assets using an HTTP server.
 
 ## Making modifications
 
