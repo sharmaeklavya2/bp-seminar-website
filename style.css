@@ -84,15 +84,11 @@ h1 {
     font-weight: var(--bold-weight);
     color: var(--emph-color);
 }
-.talk-list .affil::before {
-    content: " | ";
-}
 .talk-list .abstract {
     padding-top: 0.3rem;
     font-size: 1.1rem;
 }
-.talk-list .abstract::before {
-    content: "Abstract: ";
+.talk-list .leader {
     font-weight: var(--bold-weight);
 }
 .credits {

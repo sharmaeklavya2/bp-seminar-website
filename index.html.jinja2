@@ -21,7 +21,7 @@
         <span class="icon"></span>
         {% if talk.speakerUrl %}<a href="{{talk.speakerUrl}}">{% endif %}
             <span class="name">{{talk.speakerName}}</span>
-            {% if talk.speakerAffil %}<span class="affil">{{talk.speakerAffil}}</span>{% endif %}
+            {% if talk.speakerAffil %} | <span class="affil">{{talk.speakerAffil}}</span>{% endif %}
         {% if talk.speakerUrl %}</a>{% endif %}
     </div>
 {%- endif %}
@@ -54,7 +54,10 @@
 {%- endif %}
 {%- if talk.abstract %}
     <div class="abstract">
+        <span class="leader">Abstract:</span>
+        <span class="follower">
 {{talk.abstract}}
+        </span>
     </div>
 {%- endif %}
 </li>
