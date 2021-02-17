@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 "Takes a Jinja2 template file and a JSON context file as input. Returns rendered output."
 
 import json

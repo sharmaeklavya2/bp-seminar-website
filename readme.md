@@ -7,14 +7,14 @@ This repository contains:
 
 ## Generating the website
 
-The generator is written in python.
+The generator is written in python 3.
 First, download the dependencies:
 
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 
 Then, run the generator:
 
-    python jinjait.py index.html.jinja2 context.json index.html
+    python3 jinjait.py index.html.jinja2 context.json index.html
 
 The output is written to the file `index.html`.
 This repository also contains other assets required by the website, like CSS and images.
