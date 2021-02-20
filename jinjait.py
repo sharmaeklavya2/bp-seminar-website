@@ -61,9 +61,12 @@ def render(template_path, context_path, output_path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('template_path')
-    parser.add_argument('context_path')
-    parser.add_argument('output_path')
+    parser.add_argument('-t', '--template-path', default='index.html.jinja2',
+        help='path to template file (default: index.html.jinja2)')
+    parser.add_argument('-c', '--context-path', default='context.json',
+        help='path to JSON file containing context for the template (default: context.json)')
+    parser.add_argument('-o', '--output-path', default='index.html',
+        help='path to output file (default: index.html)')
     args = parser.parse_args()
     render(args.template_path, args.context_path, args.output_path)
 

@@ -14,7 +14,7 @@ First, download the dependencies:
 
 Then, run the generator:
 
-    python3 jinjait.py index.html.jinja2 context.json index.html
+    python3 jinjait.py
 
 The output is written to the file `index.html`.
 This repository also contains other assets required by the website:
