@@ -67,21 +67,21 @@
 <h1>{{title}}</h1>
 <p>{{description}}</p>
 <p>The seminars will take place on Zoom at <a href="{{videoUrl}}">{{videoUrl}}</a>.</p>
-{%- if futureEvents %}
-<h2>Upcoming Seminars</h2>
-<ol class="talk-list">
-{%- for talk in talks %}
-{%- if talk.timeObj >= nowObj %}
-{{ printTalk(talk) }}
-{%- endif %}
-{%- endfor %}
-</ol>
-{%- endif %}
 {%- if pastEvents %}
 <h2>Past Seminars</h2>
 <ol class="talk-list">
 {%- for talk in talks %}
 {%- if talk.timeObj < nowObj %}
+{{ printTalk(talk) }}
+{%- endif %}
+{%- endfor %}
+</ol>
+{%- endif %}
+{%- if futureEvents %}
+<h2>Upcoming Seminars</h2>
+<ol class="talk-list">
+{%- for talk in talks %}
+{%- if talk.timeObj >= nowObj %}
 {{ printTalk(talk) }}
 {%- endif %}
 {%- endfor %}
