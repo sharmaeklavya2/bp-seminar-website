@@ -12,9 +12,9 @@
     "time": "2021-02-24 15:00:00",
     "paperUrl": "https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/levin.pdf",
     "paperText": "Presentation slides",
-    "videoText": "Video recording (the talk starts at 0:33:45)",
-    "videoUrl": "https://drive.google.com/file/d/1QdClHE7LGPKBrPCUu5Uu2C0elR3poqzI/view?usp=sharing",
-    "abstract": "I present a new generalization of the extensible bin packing with unequal bin sizes problem. In this generalization the cost of exceeding the bin size depends on the index of the bin and not only on the amount in which the size of the bin is exceeded. This type of problem can be studied both as a scheduling problem (the number of bins is fixed) and as a bin packing problem (the number of bins is chosen by the algorithm). I will discuss the approximability of the (offline) generalized problem both in terms of the bin packing variant where an AFPTAS could be designed and of the scheduling variant where an EPTAS is exhibited. This last EPTAS is based on using the shifting technique followed by a solution of polynomial number of n-fold programming instances."
+    "videoUrl": "https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/2021-02-24-asaf-levin.mp4",
+    "videoText": "Video recording",
+    "abstract": "We present a new generalization of the extensible bin packing with unequal bin sizes problem. In this generalization the cost of exceeding the bin size depends on the index of the bin and not only on the amount in which the size of the bin is exceeded. This type of problem can be studied both as a scheduling problem (the number of bins is fixed) and as a bin packing problem (the number of bins is chosen by the algorithm). We will discuss the approximability of the (offline) generalized problem both in terms of the bin packing variant where an AFPTAS could be designed and of the scheduling variant where an EPTAS is exhibited. This last EPTAS is based on using the shifting technique followed by a solution of polynomial number of n-fold programming instances."
 },
 {
     "title": "A survey talk on multidimensional packing (2-D bin packing, strip packing, and other related problems)",
