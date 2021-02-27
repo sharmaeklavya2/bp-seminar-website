@@ -10,6 +10,10 @@
     "speakerAffil": "Technion, Israel",
     "speakerUrl": "https://web.iem.technion.ac.il/site/academicstaff/asaf-levin/",
     "time": "2021-02-24 15:00:00",
+    "paperUrl": "https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/levin.pdf",
+    "paperText": "Presentation slides",
+    "videoText": "Video recording (the talk starts at 0:33:45)",
+    "videoUrl": "https://drive.google.com/file/d/1QdClHE7LGPKBrPCUu5Uu2C0elR3poqzI/view?usp=sharing",
     "abstract": "I present a new generalization of the extensible bin packing with unequal bin sizes problem. In this generalization the cost of exceeding the bin size depends on the index of the bin and not only on the amount in which the size of the bin is exceeded. This type of problem can be studied both as a scheduling problem (the number of bins is fixed) and as a bin packing problem (the number of bins is chosen by the algorithm). I will discuss the approximability of the (offline) generalized problem both in terms of the bin packing variant where an AFPTAS could be designed and of the scheduling variant where an EPTAS is exhibited. This last EPTAS is based on using the shifting technique followed by a solution of polynomial number of n-fold programming instances."
 },
 {
@@ -66,8 +70,7 @@
 {
     "title": "Discovering and Certifying Lower Bounds for the Online Bin Stretching Problem",
     "speakerName": "Martin Böhm",
-    "speakerAffil": "Universität Bremen, Germany",
-    "speakerUrl": "https://www.uni-bremen.de/en/cslog/team/dr-martin-boehm",
+    "speakerAffil": "Institute of Computer Science, University of Wrocław, Poland",
     "time": "2021-04-21 15:00:00"
 },
 {
@@ -81,7 +84,7 @@
     "title": "A Tight (3/2+ε) Approximation for Skewed Strip Packing",
     "speakerName": "Waldo Galvez",
     "speakerAffil": "Technical University of Munich, Germany",
-    "speakerUrl": "https://people.idsia.ch/~galvez/",
+    "speakerUrl": "https://sites.google.com/view/wgalvez/",
     "time": "2021-05-05 15:00:00"
 },
 {
