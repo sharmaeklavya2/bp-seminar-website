@@ -60,10 +60,10 @@ h1 {
     z-index: 10;
 }
 .tooltip {
-    display: none;
+    visibility: hidden;
 }
 :hover > .tooltip, :focus > .tooltip {
-    display: block;
+    visibility: visible;
 }
 
 /* specific */
