@@ -22,7 +22,11 @@
     "speakerAffil": "Indian Institute of Science, Bengaluru, India",
     "speakerUrl": "https://www.csa.iisc.ac.in/~arindamkhan/",
     "time": "2021-03-03 15:00:00",
-    "abstract": "Multidimensional generalizations of the bin packing problem find numerous applications in practice and are well-studied in approximation algorithms and combinatorial optimization from the 1970s. In this talk, we discuss some recent results and major open problems related to 2-D geometric bin packing, vector packing, strip packing, and 2-D geometric knapsack."
+    "paperUrl": "https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/khansurveyppt.pdf",
+    "paperText": "Presentation slides",
+    "videoText": "Video recording",
+    "videoUrl": "https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/multdimbpSurvey_ArindamKhan.mp4",
+    "abstract": "Multidimensional generalizations of the bin packing problem find numerous applications in practice and are well-studied in approximation algorithms and combinatorial optimization from the 1970s. In this talk, we discuss some recent results and major open problems related to 2-D geometric bin packing, vector packing, strip packing, 2-D geometric knapsack, and weighted bipartite edge coloring."
 },
 {
     "title": "Packing circles in squares",
@@ -30,6 +34,8 @@
     "speakerAffil": "TU Braunschweig, Germany",
     "speakerUrl": "https://www.ibr.cs.tu-bs.de/users/fekete/",
     "time": "2021-03-10 15:00:00",
+    "videoText": "Video recording",
+    "videoUrl": "https://www.youtube.com/watch?v=RttgO4TFbFk&ab_channel=TUBS-Algorithmik",
     "abstract": "We discuss problems and methods for packing a set of objects into a given container, in particular a set of different-size circles or squares into a square or circular container. Questions of this type have attracted a considerable amount of attention and are known to be notoriously hard. We focus on a particularly simple criterion for deciding whether a set can be packed: comparing the total area A of all objects to the area C of the container. The critical packing density δ* is the largest value A/C for which any set of area A can be packed into a container of area C. We describe algorithms that establish the critical density of squares in a square (δ* = 0.5), of circles in a square (δ* = 0.5390…), circles in a circle (δ* = 0.5), and squares in a circle (δ* = 0.509). We also provide a complete characterization of the critical covering density of rectangles by disks."
 },
 {
@@ -37,14 +43,16 @@
     "speakerName": "Klaus Jansen",
     "speakerAffil": "Kiel University, Germany",
     "speakerUrl": "https://www.algo.informatik.uni-kiel.de/en/team/prof.-dr.-klaus-jansen",
-    "time": "2021-03-17 15:00:00"
+    "time": "2021-03-17 15:00:00",
+    "abstract": "In this talk we present an overview about new results for bin packing and related scheduling problems. During the last years we have worked on the design of eﬃcient exact and approximation algorithms for packing and scheduling problems. In order to obtain faster algorithms we studied integer linear programming (ILP) formulations for these problems and proved structural results for optimum solutions of the corresponding ILPs."
 },
 {
     "title": "Greedy methods for Bin Packing Benchmark problems",
     "speakerName": "György Dósa",
     "speakerAffil": "University of Pannonia, Hungary",
     "speakerUrl": "https://math.uni-pannon.hu/~dosa/index_en.html",
-    "time": "2021-03-24 15:00:00"
+    "time": "2021-03-24 15:00:00",
+    "abstract": "We consider the bin packing problem (BP) from the practical view. BP is know to be (strongly) NP-hard. Despite this fact, we find that certain input classes can be solved quite easily. More exactly we try to solve the Falkenauer U and the Schwerin benchmark instances. These commonly used benchmark classes have the property that the bin size is a given integer, the item sizes are drawn randomly by uniform distribution from some interval (and then rounded to integers). For the Schwerin class we are able to solve all 200 instances optimally in a greedy way. In case of the Falkenauer U class the problem is harder, here we can get optimal solution with some (other) greedy type algorithm, in about 90% of the instances. The conclusion is, that such algorithms can be considered as pre-solve methods, they solve most of the cases, and only the remained instances should be solved by some more sophisticated algorithm."
 },
 {
     "title": "Some questions related to the game-theoretic version",
@@ -109,6 +117,12 @@
     "speakerAffil": "University of Haifa, Israel",
     "speakerUrl": "https://mathematics.haifa.ac.il/",
     "time": "2021-05-26 15:00:00"
+},
+{
+    "title": " Online bin packing with overload cost",
+    "speakerName": "Kelin Luo",
+    "speakerAffil": "TU Eindhoven, Netherlands",
+    "time": "2021-06-03 15:00:00"
 }
 ]
 }
