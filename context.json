@@ -36,6 +36,16 @@
     "time": "2021-03-10 15:00:00",
     "videoText": "Video recording",
     "videoUrl": "https://youtu.be/PdvbuDaSBqc",
+    "moreResources": [
+        {
+            "text": "Video: Packing geometric objects with optimal worst-case density",
+            "url": "https://www.ibr.cs.tu-bs.de/users/fekete/Videos/PackingCirclesInSquares.mp4"
+        },
+        {
+            "text": "Video: Covering rectangles by disks",
+            "url": "https://www.youtube.com/watch?v=Cwn9ZimX2XE"
+        }
+    ],
     "abstract": "We discuss problems and methods for packing a set of objects into a given container, in particular a set of different-size circles or squares into a square or circular container. Questions of this type have attracted a considerable amount of attention and are known to be notoriously hard. We focus on a particularly simple criterion for deciding whether a set can be packed: comparing the total area A of all objects to the area C of the container. The critical packing density δ* is the largest value A/C for which any set of area A can be packed into a container of area C. We describe algorithms that establish the critical density of squares in a square (δ* = 0.5), of circles in a square (δ* = 0.5390…), circles in a circle (δ* = 0.5), and squares in a circle (δ* = 0.509). We also provide a complete characterization of the critical covering density of rectangles by disks."
 },
 {

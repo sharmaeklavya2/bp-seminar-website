@@ -78,6 +78,9 @@ h1 {
         list-style-type: none;
         padding: 0;
     }
+    ul.follower {
+        padding-left: 1em;
+    }
 }
 .talk-list .title {
     font-size: 1.1em;

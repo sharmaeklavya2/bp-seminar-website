@@ -52,6 +52,16 @@
         <a href="{{talk.paperUrl}}">{{talk.paperText or talk.paperUrl}}</a>
     </div>
 {%- endif %}
+{%- if talk.moreResources %}
+    <div class="more-resources">
+        <span class="leader">Additional resources:</span>
+        <ul class="follower">
+    {%- for res in talk.moreResources %}
+            <li><a href="{{res.url}}">{{res.text or res.url}}</a></li>
+    {%- endfor %}
+        </ul>
+    </div>
+{%- endif %}
 {%- if talk.abstract %}
     <div class="abstract">
         <span class="leader">Abstract:</span>
