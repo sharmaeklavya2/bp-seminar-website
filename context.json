@@ -12,8 +12,8 @@
     "time": "2021-02-24 15:00:00",
     "paperUrl": "https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/levin.pdf",
     "paperText": "Presentation slides",
-    "videoUrl": "https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/2021-02-24-asaf-levin.mp4",
     "videoText": "Video recording",
+    "videoUrl": "https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/2021-02-24-asaf-levin.mp4",
     "abstract": "We present a new generalization of the extensible bin packing with unequal bin sizes problem. In this generalization the cost of exceeding the bin size depends on the index of the bin and not only on the amount in which the size of the bin is exceeded. This type of problem can be studied both as a scheduling problem (the number of bins is fixed) and as a bin packing problem (the number of bins is chosen by the algorithm). We will discuss the approximability of the (offline) generalized problem both in terms of the bin packing variant where an AFPTAS could be designed and of the scheduling variant where an EPTAS is exhibited. This last EPTAS is based on using the shifting technique followed by a solution of polynomial number of n-fold programming instances."
 },
 {
@@ -35,7 +35,7 @@
     "speakerUrl": "https://www.ibr.cs.tu-bs.de/users/fekete/",
     "time": "2021-03-10 15:00:00",
     "videoText": "Video recording",
-    "videoUrl": "https://www.youtube.com/watch?v=RttgO4TFbFk&ab_channel=TUBS-Algorithmik",
+    "videoUrl": "https://youtu.be/PdvbuDaSBqc",
     "abstract": "We discuss problems and methods for packing a set of objects into a given container, in particular a set of different-size circles or squares into a square or circular container. Questions of this type have attracted a considerable amount of attention and are known to be notoriously hard. We focus on a particularly simple criterion for deciding whether a set can be packed: comparing the total area A of all objects to the area C of the container. The critical packing density δ* is the largest value A/C for which any set of area A can be packed into a container of area C. We describe algorithms that establish the critical density of squares in a square (δ* = 0.5), of circles in a square (δ* = 0.5390…), circles in a circle (δ* = 0.5), and squares in a circle (δ* = 0.509). We also provide a complete characterization of the critical covering density of rectangles by disks."
 },
 {
@@ -119,10 +119,19 @@
     "time": "2021-05-26 15:00:00"
 },
 {
-    "title": " Online bin packing with overload cost",
+    "title": "Online bin packing with overload cost",
     "speakerName": "Kelin Luo",
     "speakerAffil": "TU Eindhoven, Netherlands",
     "time": "2021-06-03 15:00:00"
+},
+{
+    "title": "Almost Optimal Inapproximability of Multidimensional Packing Problems",
+    "speakerName": "Sai Sandeep",
+    "speakerAffil": "Carnegie Mellon University, USA",
+    "speakerUrl": "https://spallerl.github.io/",
+    "time": "2021-06-10 15:00:00",
+    "paperUrl": "https://arxiv.org/abs/2101.02854",
+    "paperText": "arXiv:2101.02854"
 }
 ]
 }
