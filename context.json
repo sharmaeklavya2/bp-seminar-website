@@ -166,7 +166,8 @@
     "speakerUrl": "https://sharmaeklavya2.github.io",
     "time": "2021-05-19 15:00:00",
     "paperUrl": "https://arxiv.org/abs/2011.10963",
-    "paperText": "arXiv:2011.10963"
+    "paperText": "arXiv:2011.10963",
+    "abstract": "We explore approximation algorithms for the d-dimensional geometric bin packing problem (dBP). Caprara (MOR 2008) gave a harmonic-based algorithm for dBP having an asymptotic approximation ratio (AAR) of 1.692^(d-1). However, their algorithm doesn't allow items to be rotated. This is in contrast to some common applications of dBP, like packing boxes into shipping containers. We give approximation algorithms for dBP when items can be orthogonally rotated about all or a subset of axes. We first give a fast and simple harmonic-based algorithm having AAR 1.692^d. We next give a more sophisticated harmonic-based algorithm, which we call HGaP, having AAR (1+ε)*1.692^(d-1). This gives an AAR of roughly 2.860+ε for 3BP with rotations, which improves upon the best-known AAR of 4.5. In addition, we study the multiple-choice bin packing problem that generalizes the rotational case. Here we are given n sets of d-dimensional cuboidal items and we have to choose exactly one item from each set and then pack the chosen items. Our algorithms also work for the multiple-choice bin packing problem. We also give fast and simple approximation algorithms for the multiple-choice versions of dD strip packing and dD geometric knapsack."
 },
 {
     "title": "Online bin packing of squares and cubes",
