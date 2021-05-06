@@ -10,8 +10,8 @@
     "speakerAffil": "Technion, Israel",
     "speakerUrl": "https://web.iem.technion.ac.il/site/academicstaff/asaf-levin/",
     "time": "2021-02-24 15:00:00",
-    "paperUrl": "https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/levin.pdf",
-    "paperText": "Presentation slides",
+    "slidesText": "Presentation slides",
+    "slidesUrl": "https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/levin.pdf",
     "videoText": "Video recording",
     "videoUrl": "https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/2021-02-24-asaf-levin.mp4",
     "abstract": "We present a new generalization of the extensible bin packing with unequal bin sizes problem. In this generalization the cost of exceeding the bin size depends on the index of the bin and not only on the amount in which the size of the bin is exceeded. This type of problem can be studied both as a scheduling problem (the number of bins is fixed) and as a bin packing problem (the number of bins is chosen by the algorithm). We will discuss the approximability of the (offline) generalized problem both in terms of the bin packing variant where an AFPTAS could be designed and of the scheduling variant where an EPTAS is exhibited. This last EPTAS is based on using the shifting technique followed by a solution of polynomial number of n-fold programming instances."
@@ -22,8 +22,8 @@
     "speakerAffil": "Indian Institute of Science, Bengaluru, India",
     "speakerUrl": "https://www.csa.iisc.ac.in/~arindamkhan/",
     "time": "2021-03-03 15:00:00",
-    "paperUrl": "https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/khansurveyppt.pdf",
-    "paperText": "Presentation slides",
+    "slidesText": "Presentation slides",
+    "slidesUrl": "https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/khansurveyppt.pdf",
     "videoText": "Video recording",
     "videoUrl": "https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/ppt/multdimbpSurvey_ArindamKhan.mp4",
     "abstract": "Multidimensional generalizations of the bin packing problem find numerous applications in practice and are well-studied in approximation algorithms and combinatorial optimization from the 1970s. In this talk, we discuss some recent results and major open problems related to 2-D geometric bin packing, vector packing, strip packing, 2-D geometric knapsack, and weighted bipartite edge coloring."
@@ -34,8 +34,8 @@
     "speakerAffil": "TU Braunschweig, Germany",
     "speakerUrl": "https://www.ibr.cs.tu-bs.de/users/fekete/",
     "time": "2021-03-10 15:00:00",
-    "paperUrl": "http://www.inf.u-szeged.hu/bpseminar/SandorFeketePresentation.pdf",
-    "paperText": "Presentation slides",
+    "slidesText": "Presentation slides",
+    "slidesUrl": "http://www.inf.u-szeged.hu/bpseminar/SandorFeketePresentation.pdf",
     "videoText": "Video recording",
     "videoUrl": "https://youtu.be/PdvbuDaSBqc",
     "moreResources": [
@@ -60,8 +60,8 @@
     "speakerAffil": "Kiel University, Germany",
     "speakerUrl": "https://www.algo.informatik.uni-kiel.de/en/team/prof.-dr.-klaus-jansen",
     "time": "2021-03-17 15:00:00",
-    "paperUrl": "http://www.inf.u-szeged.hu/bpseminar/KlausJansenPresentation.pdf",
-    "paperText": "Presentation slides",
+    "slidesText": "Presentation slides",
+    "slidesUrl": "http://www.inf.u-szeged.hu/bpseminar/KlausJansenPresentation.pdf",
     "videoText": "Video recording",
     "videoUrl": "http://www.inf.u-szeged.hu/bpseminar/KlausJansenvideo.mp4",
     "abstract": "In this talk we present an overview about new results for bin packing and related scheduling problems. During the last years we have worked on the design of eﬃcient exact and approximation algorithms for packing and scheduling problems. In order to obtain faster algorithms we studied integer linear programming (ILP) formulations for these problems and proved structural results for optimum solutions of the corresponding ILPs."
@@ -72,8 +72,8 @@
     "speakerAffil": "University of Pannonia, Hungary",
     "speakerUrl": "https://math.uni-pannon.hu/~dosa/index_en.html",
     "time": "2021-03-24 15:00:00",
-    "paperUrl": "http://www.inf.u-szeged.hu/bpseminar/DosaGyorgyPresentation.pdf",
-    "paperText": "Presentation slides",
+    "slidesText": "Presentation slides",
+    "slidesUrl": "http://www.inf.u-szeged.hu/bpseminar/DosaGyorgyPresentation.pdf",
     "videoText": "Video recording",
     "videoUrl": "http://www.inf.u-szeged.hu/bpseminar/DosaGyorgyvideo.mp4",
     "abstract": "We consider the bin packing problem (BP) from the practical view. BP is know to be (strongly) NP-hard. Despite this fact, we find that certain input classes can be solved quite easily. More exactly we try to solve the Falkenauer U and the Schwerin benchmark instances. These commonly used benchmark classes have the property that the bin size is a given integer, the item sizes are drawn randomly by uniform distribution from some interval (and then rounded to integers). For the Schwerin class we are able to solve all 200 instances optimally in a greedy way. In case of the Falkenauer U class the problem is harder, here we can get optimal solution with some (other) greedy type algorithm, in about 90% of the instances. The conclusion is, that such algorithms can be considered as pre-solve methods, they solve most of the cases, and only the remained instances should be solved by some more sophisticated algorithm."
@@ -84,8 +84,8 @@
     "speakerAffil": "University of Salento, Italy",
     "speakerUrl": "https://sites.google.com/site/vittoriobilo/",
     "time": "2021-03-31 15:00:00",
-    "paperUrl": "http://www.inf.u-szeged.hu/bpseminar/VittorioBiloPresentation.pdf",
-    "paperText": "Presentation slides",
+    "slidesText": "Presentation slides",
+    "sildesUrl": "http://www.inf.u-szeged.hu/bpseminar/VittorioBiloPresentation.pdf",
     "videoText": "Video recording",
     "videoUrl": "http://www.inf.u-szeged.hu/bpseminar/VittorioBilovideo.mp4",
     "abstract": "Selfish bin packing (aka. bin packing games) is the variant of the bin packing problem considered under the hypothesis that items are handled by selfish non-cooperative agents. It has been an active research topic in Algorithmic Game Theory since its introduction in 2006. In this talk, we survey the main results for selfish packing achieved in these fifteen years and then present our recent contributions to the topic."
@@ -96,8 +96,8 @@
     "speakerAffil": "Kiel University, Germany",
     "speakerUrl": "algo.informatik.uni-kiel.de/en/team/kim-manuel-klein",
     "time": "2021-04-07 15:00:00",
-    "paperUrl": "http://www.inf.u-szeged.hu/bpseminar/KimKleinPresentation.pdf",
-    "paperText": "Presentation slides",
+    "slidesText": "Presentation slides",
+    "slidesUrl": "http://www.inf.u-szeged.hu/bpseminar/KimKleinPresentation.pdf",
     "videoText": "Video recording",
     "videoUrl": "http://www.inf.u-szeged.hu/bpseminar/KimKleinvideo.mp4",
     "abstract": "We consider the classical bin packing problem with d different item sizes. An instance of this problem, can be encoded very efficiently as the item sizes and the multiplicities can be written in binary. It was a long standing open question if the problem admits an algorithm that runs in polynomial time in the encoding length (assuming d is constant). Goemans and Rothvoss finally answered this question positively. They presented an algorithm that relies on structural properties of solutions of the corresponding configuration integer program. It remains an open question however, if the problem actually admits an fpt algorithm, parameterized by d. In this talk, we present new structural techniques that build upon the ideas of Goemans and Rothvoss. As a result of those ideas we obtain an fpt algorithm for the problem parameterized by the number of vertices of the underlying knapsack polytope."
@@ -108,8 +108,8 @@
     "speakerAffil": "University of Manitoba, Canada",
     "speakerUrl": "http://www.cs.umanitoba.ca/~kamalis/",
     "time": "2021-04-14 15:00:00",
-    "paperUrl": "http://www.inf.u-szeged.hu/bpseminar/ShahinKamaliPresentation.pdf",
-    "paperText": "Presentation slides",
+    "slidesText": "Presentation slides",
+    "slidesUrl": "http://www.inf.u-szeged.hu/bpseminar/ShahinKamaliPresentation.pdf",
     "videoText": "Video recording",
     "videoUrl": "http://www.inf.u-szeged.hu/bpseminar/ShahinKamalivideo.mp4",
     "abstract": "In this talk, we discuss a recent trend in the design of online algorithms in which the online algorithm is enhanced with (potentially erroneous) predictions about the input sequence. The goal is to design algorithms with good “consistency” (i.e., the competitive ratio assuming no prediction error) and “robustness” (i.e., the competitive ratio under adversarial error). The first part of the talk is an overview of recent results for some classic online problems such as paging and contract scheduling. In the second part, we consider the bin packing problem with predictions that concern the frequency of item sizes in the input sequence. We discuss online algorithms with efficient tradeoffs between their consistency and their robustness, and whose performance degrades gently as a function of the error in prediction."
@@ -119,16 +119,12 @@
     "speakerName": "Martin Böhm",
     "speakerAffil": "Institute of Computer Science, University of Wrocław, Poland",
     "time": "2021-04-21 15:00:00",
-    "paperUrl": "http://www.inf.u-szeged.hu/bpseminar/MartinBohmPresentation.pdf",
-    "paperText": "Presentation slides",
+    "slidesText": "Presentation slides",
+    "slidesUrl": "http://www.inf.u-szeged.hu/bpseminar/MartinBohmPresentation.pdf",
     "videoText": "Video recording",
     "videoUrl": "https://www.inf.u-szeged.hu/bpseminar/MartinBohmvideo.mp4",
-    "moreResources": [
-        {
-            "text": "Paper: Discovering and Certifying Lower Bounds for the Online Bin Stretching Problem",
-            "url": "https://arxiv.org/abs/2001.01125"
-        }
-    ],
+    "paperText": "Paper: Discovering and Certifying Lower Bounds for the Online Bin Stretching Problem",
+    "paperUrl": "https://arxiv.org/abs/2001.01125",
     "abstract": "Online bin stretching is a scheduling problem at the threshold of scheduling and bin packing, as its terminology suggests. Studied for over 20 years, its exact competitive ratio is still unknown, and progress is lacking primarily in constructing strong lower bounds. In the last few years, there was success in creating non-trivial lower bounds for a fixed number of bins with the aid of a computer search. However, the bounds are in the form of large adversarial decision trees and some cannot be verified by human reviewers anymore. In the talk, we will discuss the tools, both theoretical and technical, to generate the lower bounds, as well as explain how to validate them using the Coq proof assistant system.  Parts of the talk are based on joint work with Bertrand Simon."
 },
 {
@@ -137,8 +133,8 @@
     "speakerAffil": "University of Szeged, Hungary",
     "speakerUrl": "http://www.jgypk.hu/~bekesi/",
     "time": "2021-04-28 15:00:00",
-    "paperUrl": "http://www.inf.u-szeged.hu/bpseminar/BekesiJozsefPresentation.pdf",
-    "paperText": "Presentation slides",
+    "slidesText": "Presentation slides",
+    "slidesUrl": "http://www.inf.u-szeged.hu/bpseminar/BekesiJozsefPresentation.pdf",
     "videoText": "Video recording",
     "videoUrl": "http://www.inf.u-szeged.hu/bpseminar/BekesiJozsefvideo.mp4",
     "abstract": "In the paper we will consider a special relaxation of the well-known online bin packing problem. In a batched bin packing problem (BBPP) - defined by Gutin et al. - the elements come in batches and one batch is available for packing in a given time. If we have K >= 2 batches then we denote the problem by K-BBPP. Gutin et al. gave a 1.3871... lower bound for the asymptotic competitive ratio (ACR) of any on-line 2-BBBP algorithm. In this talk we discuss the 3-BBPP, and we present a 1.51211... lower bound construction for its ACR. This is joint work with János Balogh, György Dósa, Gábor Galambos, and Zhiyi Tan."
