@@ -109,7 +109,7 @@ h1 {
 }
 .icon {
     background: url("sprites.svg") no-repeat;
-    background-size: 4.4em 1.1em;
+    background-size: 5.5em 1.1em;
 }
 .time .icon {
     background-position: -1.1em 0em;
@@ -119,4 +119,7 @@ h1 {
 }
 .paper .icon {
     background-position: -3.3em 0em;
+}
+.slides .icon {
+    background-position: -4.4em 0em;
 }

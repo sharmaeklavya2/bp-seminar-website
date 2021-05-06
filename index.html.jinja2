@@ -52,6 +52,12 @@
         <a href="{{talk.paperUrl}}">{{talk.paperText or talk.paperUrl}}</a>
     </div>
 {%- endif %}
+{%- if talk.slidesUrl %}
+    <div class="slides">
+        <span class="icon"></span>
+        <a href="{{talk.slidesUrl}}">{{talk.slidesText or talk.slidesUrl}}</a>
+    </div>
+{%- endif %}
 {%- if talk.moreResources %}
     <div class="more-resources">
         <span class="leader">Additional resources:</span>
