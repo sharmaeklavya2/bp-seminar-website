@@ -6,6 +6,7 @@ body {
     --link-color: rgb(3, 102, 214);
     --bold-weight: 500;
     --menu-color: hsl(0, 0%, 80%, 0.95);
+    --tint: rgb(0, 0, 0, 0.05);
 }
 .icon {
     filter: invert(0.2);
@@ -17,6 +18,7 @@ body {
         --emph-color: hsl(0, 0%, 95%);
         --link-color: rgb(65, 175, 235);
         --menu-color: hsl(0, 0%, 30%, 0.95);
+        --tint: rgb(255, 255, 255, 0.05);
     }
     .icon {
         filter: invert(0.85);
@@ -96,6 +98,20 @@ h1 {
 }
 .credits {
     font-style: italic;
+}
+li:target {
+    background-color: var(--tint);
+}
+.title:not(:hover):not(:focus-within) > .headerlink {
+    visibility: hidden;
+}
+.headerlink, .headerlink:visited {
+    margin-left: 0.2em;
+    text-decoration: none;
+    color: #888;
+}
+.headerlink::before {
+    content: "\b6";
 }
 
 /* icons */

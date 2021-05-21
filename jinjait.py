@@ -7,6 +7,7 @@ from collections.abc import Mapping
 from datetime import datetime
 import pytz
 import jinja2
+import re
 
 
 def timePlugin(context):
@@ -49,12 +50,32 @@ def timePlugin(context):
     return context
 
 
+def slugify(text):
+    text = text.lower()
+    text = re.sub(r'[^\w ]+', '', text)
+    text = re.sub(r' +', '-', text)
+    return text
+
+
+def slugPlugin(context):
+    if isinstance(context, Mapping):
+        if 'title' in context and 'slug' not in context:
+            context['slug'] = slugify(context['title'])
+        for v in context.values():
+            slugPlugin(v)
+    elif isinstance(context, list):
+        for v in context:
+            slugPlugin(v)
+    return context
+
+
 def render(template_path, context_path, output_path):
     with open(template_path) as tfp:
         template = jinja2.Template(tfp.read())
     with open(context_path) as cfp:
         context = json.load(cfp)
     context = timePlugin(context)
+    context = slugPlugin(context)
     with open(output_path, 'w') as ofp:
         ofp.write(template.render(context))
 

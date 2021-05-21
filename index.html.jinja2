@@ -12,9 +12,13 @@
 </head>
 
 {% macro printTalk(talk) %}
-<li>
+<li{% if talk.slug %} id="{{talk.slug}}"{% endif %}>
 {%- if talk.title %}
+    {%- if talk.slug %}
+    <div class="title" tabindex="0">{{talk.title}}<a class="headerlink" href="#{{talk.slug}}" title="permalink"></a></div>
+    {%- else %}
     <div class="title">{{talk.title}}</div>
+    {%- endif %}
 {%- endif %}
 {%- if talk.speakerName %}
     <div class="speaker">
