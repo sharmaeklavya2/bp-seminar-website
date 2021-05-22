@@ -2,8 +2,12 @@
 
 This repository contains:
 
-* A JSON file (`context.json`) containing data on a seminar schedule.
+* A JSON file (`context.json`) containing the schedule of the
+[Bin Packing Seminar Series](https://www.csa.iisc.ac.in/~arindamkhan/seminar/binpacking21/).
 * A program that reads the JSON file and outputs a static website for the seminar.
+
+Other seminar organizers can use this program
+as a template to make their own seminar websites.
 
 ## Features of the website
 
@@ -43,3 +47,15 @@ edit `context.json` and regenerate the website.
 
 If you want to make changes to the website's HTML template,
 edit `index.html.jinja2` and regenerate the website.
+
+## Freedom to use
+
+&copy; 2021 Eklavya Sharma
+
+All code, except `sprites.svg` and `context.json`, is licensed under
+the [MIT license](https://choosealicense.com/licenses/mit/).
+`sprites.svg` is licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode).
+This roughly means that you are free to use, modify and distribute this program.
+
+Most icons in `sprites.svg` are derived from [Font Awesome](https://fontawesome.com).
